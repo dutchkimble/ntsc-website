@@ -382,6 +382,18 @@ nav {
     box-shadow: 0 10px 20px rgba(37, 150, 190, 0.2);
 }
 
+.group-link--static {
+    cursor: default;
+}
+
+.group-link--static:hover {
+    background: #fff;
+    color: var(--text-muted);
+    border-color: #eee;
+    transform: none;
+    box-shadow: none;
+}
+
 /* Contact */
 .contact-section {
     text-align: center;
